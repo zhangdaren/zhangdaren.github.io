@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>zhangdaren</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-09-30T13:26:18.000Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>zhangdaren</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2018/09/30/hello-world/"/>
+    <id>http://yoursite.com/2018/09/30/hello-world/</id>
+    <published>2018-09-30T13:26:18.000Z</published>
+    <updated>2018-09-30T13:26:18.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>换了一套皮肤了，中秋快乐！各位朋友们~~</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;换了一套皮肤了，中秋快乐！各位朋友们~~&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
