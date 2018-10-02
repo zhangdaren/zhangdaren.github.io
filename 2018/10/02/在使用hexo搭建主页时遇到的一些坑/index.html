@@ -14,7 +14,7 @@
 <meta property="og:site_name" content="zhangdaren">
 <meta property="og:description" content="主页使用hexo搭建时，遇到一些问题，在此记录一下，希望能帮到有需要的朋友。 安装hexo-deployer-git异常安装hexo-deployer-git异常，提示This package is no longer maintained，该插件不再维护。解决方案，使用淘宝cnpm即可:1$ cnpm install hexo-deployer-git --save DeprecationWar">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-10-02T06:12:46.424Z">
+<meta property="og:updated_time" content="2018-10-02T06:59:02.298Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="在使用hexo搭建主页时遇到的一些坑">
 <meta name="twitter:description" content="主页使用hexo搭建时，遇到一些问题，在此记录一下，希望能帮到有需要的朋友。 安装hexo-deployer-git异常安装hexo-deployer-git异常，提示This package is no longer maintained，该插件不再维护。解决方案，使用淘宝cnpm即可:1$ cnpm install hexo-deployer-git --save DeprecationWar">
@@ -97,7 +97,7 @@
 
     </div>
     <div id="toc">
-      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#安装hexo-deployer-git异常"><span class="toc-number">1.</span> <span class="toc-text">安装hexo-deployer-git异常</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#DeprecationWarning-fs-SyncWriteStream-is-deprecated"><span class="toc-number">2.</span> <span class="toc-text">DeprecationWarning: fs.SyncWriteStream is deprecated.</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#格式不正确"><span class="toc-number">3.</span> <span class="toc-text">格式不正确</span></a></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#安装hexo-deployer-git异常"><span class="toc-number">1.</span> <span class="toc-text">安装hexo-deployer-git异常</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#DeprecationWarning-fs-SyncWriteStream-is-deprecated"><span class="toc-number">2.</span> <span class="toc-text">DeprecationWarning: fs.SyncWriteStream is deprecated.</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#格式不正确"><span class="toc-number">3.</span> <span class="toc-text">格式不正确</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#参考文档"><span class="toc-number">4.</span> <span class="toc-text">参考文档</span></a></li></ol>
     </div>
   </span>
 </div>
@@ -148,6 +148,7 @@
 <h2 id="格式不正确"><a href="#格式不正确" class="headerlink" title="格式不正确"></a>格式不正确</h2><p>使用hexo d -g发布时，一直无法提交，后面经hexo群里一个朋友提醒，原来是下面代码：后面没有空格导致。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">   type:git</span><br><span class="line">   repo:git@github.com:zhangdaren/zhangdaren.github.io.git</span><br><span class="line">   branch:master</span><br></pre></td></tr></table></figure>
 <p>后面把空格去掉就ok了。</p>
+<h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><p><a href="http://yangbingdong.com/2017/build-blog-hexo-base/" target="_blank" rel="noopener">基于Hexo+Github+Coding搭建个人博客——基础篇</a></p>
 
   </div>
 </article>
@@ -180,7 +181,7 @@
     </div>
 
     <div id="toc-footer" style="display: none">
-      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#安装hexo-deployer-git异常"><span class="toc-number">1.</span> <span class="toc-text">安装hexo-deployer-git异常</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#DeprecationWarning-fs-SyncWriteStream-is-deprecated"><span class="toc-number">2.</span> <span class="toc-text">DeprecationWarning: fs.SyncWriteStream is deprecated.</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#格式不正确"><span class="toc-number">3.</span> <span class="toc-text">格式不正确</span></a></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#安装hexo-deployer-git异常"><span class="toc-number">1.</span> <span class="toc-text">安装hexo-deployer-git异常</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#DeprecationWarning-fs-SyncWriteStream-is-deprecated"><span class="toc-number">2.</span> <span class="toc-text">DeprecationWarning: fs.SyncWriteStream is deprecated.</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#格式不正确"><span class="toc-number">3.</span> <span class="toc-text">格式不正确</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#参考文档"><span class="toc-number">4.</span> <span class="toc-text">参考文档</span></a></li></ol>
     </div>
 
     <div id="share-footer" style="display: none">
